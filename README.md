@@ -1,3 +1,0 @@
-# python game
-
-import pygame
