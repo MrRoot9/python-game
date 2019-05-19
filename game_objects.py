@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pygame
+from settings import *
 
 
 class Cell(object):

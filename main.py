@@ -20,6 +20,8 @@ def drawing():
     for cell in cells:
         cell.draw(window)
 
+    sun.draw(window)
+
     pygame.display.update()
 
 

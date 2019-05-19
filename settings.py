@@ -1,7 +1,7 @@
 #! usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Цвета
+#  Все цвета
 BURLY_WOOD = (222, 184, 135)
 SKY = (117, 187, 253)
 GRASS = (63, 155, 11)
