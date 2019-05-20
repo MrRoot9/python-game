@@ -33,3 +33,8 @@ SKY_COLOR = SKY
 # Параметры ячейки
 CELL_SIZE = 100  # px
 COLORS = [GRASS, GREEN, YELLOW, RED, BLACK]
+
+# Парамаетры солнца
+X_SUN = 50  # px
+Y_SUN = 50  # px
+R_SUN = 50  # px

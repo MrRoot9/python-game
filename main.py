@@ -16,11 +16,10 @@ def drawing():
     pygame.draw.rect(window, INT_COLOR, (WIDTH - INT_WIDTH, 0, INT_WIDTH, INT_HEIGHT))
     pygame.draw.rect(window, GF_COLOR, (0, HEIGHT - GF_HEIGHT, GF_WIDTH, GF_HEIGHT))
     pygame.draw.rect(window, SKY_COLOR, (0, 0, SKY_WIDTH, SKY_HEIGHT))
+    pygame.draw.circle(window, YELLOW, (X_SUN, Y_SUN), R_SUN)
 
     for cell in cells:
         cell.draw(window)
-
-    sun.draw(window)
 
     pygame.display.update()
 
