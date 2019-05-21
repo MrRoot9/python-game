@@ -4,7 +4,7 @@
 import sys
 import pygame
 from settings import *
-from game_objects import Cell
+from game_objects import *
 
 pygame.init()
 
