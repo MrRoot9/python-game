@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import pygame
-from settings import *
 
 
 class Cell(object):
@@ -31,12 +30,15 @@ class Cell(object):
         pygame.draw.rect(window, self.__border, (self.__x, self.__y, self.__size, self.__size), 2)
 
 
-# class Sun(object):
-#    def __init__(self, x, y, r, color):
-#        self.__x = x
-#        self.__y = y
-#        self.__r = r
-#        self.__color = color
+class Sun(object):
+    def __init__(self, x, y, r, color):
+        self.__x = x
+        self.__y = y
+        self.__r = r
+        self.__color = color
 
-#    def draw(self, window):
-#        pygame.draw.circle(window, self.__color, (self.__x, self.__y), self.__r)
+    def update(self):
+        self.__x += 1
+
+    def draw(self, window):
+        pygame.draw.circle(window, self.__color, (self.__x, self.__y), self.__r)
