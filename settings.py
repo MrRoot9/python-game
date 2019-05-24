@@ -15,8 +15,8 @@ YELLOW = (255, 255, 0)
 BLUE = (0, 0, 255)
 
 # Параметры экрана
-WIDTH = 1200  # px
-HEIGHT = 700  # px
+WIDTH = 900  # px
+HEIGHT = 600  # px
 SIZE = (WIDTH, HEIGHT)
 
 # Параметры командного интерфейса
@@ -40,8 +40,8 @@ CELL_COLORS = (GRASS, GREEN, YELLOW, RED, BLACK)
 
 # Парамаетры солнца
 SUN_X = 50  # px
-SUN_Y = 60  # px
-SUN_R = 50  # px
+SUN_Y = 50  # px
+SUN_R = 40  # px
 SUN_COLOR = YELLOW
 
 # Параметры персонажей
