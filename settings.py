@@ -13,6 +13,7 @@ BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
 YELLOW = (255, 255, 0)
 BLUE = (0, 0, 255)
+ORANGE = (255, 165, 0)
 
 # Параметры экрана
 WIDTH = 900  # px
@@ -42,7 +43,7 @@ CELL_COLORS = (GRASS, GREEN, YELLOW, RED, BLACK)
 SUN_X = 50  # px
 SUN_Y = 50  # px
 SUN_R = 40  # px
-SUN_COLOR = YELLOW
+SUN_COLORS = (YELLOW, RED, ORANGE)
 
 # Параметры персонажей
 PLAYER_COLORS = (RED, BLUE)

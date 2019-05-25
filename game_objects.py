@@ -3,6 +3,7 @@
 
 # Импорт модулей
 import pygame
+import math
 
 
 # Класс ячеек
@@ -56,11 +57,19 @@ class Cell(object):
 # Класс солнца
 class Sun(object):
     # Функция инициализатор
-    def __init__(self, x, y, r, color):
+    def __init__(self, x, y, r, colors):
         self.__x = x
         self.__y = y
         self.__r = r
-        self.__color = color
+
+        # Все цвета солнца
+        self.__colors = colors
+        self.__color_bottom = self.__colors[0]
+        self.__color_middle = self.__colors[1]
+        self.__color_top = self.__colors[2]
+
+        # Актуальный цвет
+        self.__color = self.__color_bottom
 
     # Метод обновления координат солнца
     def update(self):
@@ -68,7 +77,7 @@ class Sun(object):
 
     # Метод рисования
     def draw(self, window):
-        pygame.draw.circle(window, self.__color, (self.__x, self.__y), self.__r)
+        pygame.draw.circle(window, self.__colors, (self.__x, self.__y), self.__r)
 
 
 # Класс персонажа
